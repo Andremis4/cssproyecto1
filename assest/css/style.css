@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: rgb(243, 233, 233);
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.contenedorprincipal {
+    display: flex;
+    
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20%;
+    border: 2px solid rgb(126, 126, 126);
+    background-color: #CDC3E6;
+}
+
+.seccionprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imagenprincipal {
+    text-align: center;
+}
+
+.p {
+    width: 500%;
+}
+
+.gojo {
+    display: flex;
+    border: 2px solid rgb(126, 126, 126);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+    }
+
+.boton{
+    border: 1px solid rgb(126, 126, 126);
+    display: flex;
+    justify-content: center;
+    padding: 20%;
+        }
+        
+.nuevochat{
+    width: 100%;
+    background-color: #A491D2;
+padding: 10;
+border: 0;
+color: white;
+}
+
+.contactcontaneir{
+    display: flex;
+    border: 2px solid rgb(126, 126, 126);
+    justify-content: flex-start; 
+    gap: 10px;
+    margin: 0;
+    padding: 10px;
+}
+.contactext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+.contactext h4{
+    margin: 0;
+       text-align: left;
+    width: 100%;
+    }
+.contactext p{
+    margin: 0;
+    line-height: 0.8em;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.gojoimg { 
+    background: url("../img/gojo.jpg") center no-repeat;
+    background-size: contain;
+    
+   
+}
+
+.textgojo {
+    width: 150px;
+}
+
+.jiminimg{ 
+    background: url("../img/jimin.jpg") center no-repeat;
+    background-size: 100%;
+}
+
+.dualipaimg{
+    background: url("../img/DuaLipa.jpg") center no-repeat;
+    background-size: 100%;
+}
+
+.harryimg{
+    background: url("../img/HarryStyles.jpg") center no-repeat;
+    background-size: 100%;
+}
+
+.jungkookimg{
+    background: url("../img/JK.jpg") center no-repeat;
+    background-size: 100%;
+}
+.hwanimg{
+    background: url("../img/hwang.jpg") center no-repeat;
+    background-size: 100%;
+}
+
+.leviimg{
+    background: url("../img/levi.jpg") center no-repeat;
+    background-size: 100%;
+}
+
+.gohanimg{
+    background: url("../img/gohan.jpg") center no-repeat;
+    background-size: 100%;
+}
